@@ -12,7 +12,7 @@ final_model = pickle.load(open(r'Drugs.pkl','rb'))
 
 def main():
     
-    st.title('Effectiveness of STD drugs')
+    st.title('Effectiveness of drugs')
     html_temp = """
     <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Base Score Prediction ML App </h2>
